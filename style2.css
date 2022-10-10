@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading{
+    width:100%;
+    height:12vh;
+    background-color: rgb(16, 16, 18);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#headingContent{
+    padding-left:3vw;
+    padding-top:3vh;
+    padding-bottom:3vh ;
+    font-size:4vh;
+    font-family: 'Milonga', cursive;
+    letter-spacing: 2px;
+    color:white;
+    word-spacing: 17px;
+    text-shadow: 3px 2px 2px rgb(115, 195, 195);
+}
+#headingSideContent{
+    padding-right:3vw;
+    padding-top:3vh;
+    padding-bottom:3vh ;
+    font-size:4vh;
+    letter-spacing: 2px;
+    color:rgb(255, 255, 255);
+    word-spacing: 17px;
+    text-shadow: 3px 2px 2px rgb(115, 195, 195);
+}
+body {
+    background-image:url('Images/Clouds.jpeg');
+    height:100vh;
+    position:sticky;
+}
+
+.main{
+    margin-top:10%;
+    width:40%;
+    height:60%;
+    margin-left:auto;
+    margin-right: auto;
+    border-color: rgb(128, 100, 146);
+    border-width: 15px;
+    border-style: outset;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: ghostwhite;
+    background-image:url('Images/wrk.jpg');
+    background-position: center;
+
+}
+
+.place{
+    background-color:black;
+    width:100%;
+    height:6vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#formHeading{
+    font-size: 30px;
+    text-shadow:4px 2px 2px darkblue;
+    padding-right:2vw;
+    box-shadow:2px 2px 2px skyblue;
+}
+#sideHeading{
+    font-size: 20px;
+    text-shadow:4px 2px 2px darkblue;
+    padding-top:1vh;
+    padding-left:1vw;
+    padding-right:2vw;
+}
+.mainForm{
+    margin-bottom:8vh;
+}
+.form1{
+    display:table;
+    border-spacing: 10px;
+}
+
+.info{
+   
+    display:table-row;
+}
+label{
+    display:table-cell;
+    font-family:'Spectral', serif;
+    font-weight: 5px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px lightslategrey;
+}
+
+input {
+    display:table-cell;
+    background-color: rgba(240, 248, 255, 0);
+    background-color:rgb(167, 202, 221);
+    font-size: 20px;
+    width: 17vw;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: 'Prata', serif;
+}
+#error{
+    font-size:25px;
+    background-color:red ;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .main{
+        width:80%;
+    }
+    #headingContent{
+        font-size:2vh;
+    }
+    #headingSideContent{
+        font-size:2vh;
+    }
+    label,input{
+        font-size: 10px;
+    }
+    #formHeading{
+        font-size:10px;
+    }
+    #sideHeading{
+        font-size:7px;
+    }
+}

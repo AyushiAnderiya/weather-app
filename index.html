@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Update</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gelasio:wght@600&family=IM+Fell+Great+Primer+SC&family=Milonga&family=Prata&family=Spectral:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="heading">
+        <h2 id="headingContent"> Today's Weather Forcast</h2>
+        <h2 id="headingSideContent"> India </h2>
+    </div>
+
+    <div class="main">
+
+        <div class="image">
+            <img id="img2" src="Images/cloud-2.png" alt="cloud photo">
+        </div>
+
+        <div class="mainForm">
+            <form class="form1">
+                <label>City:- </label>
+                <input id="cityDetail" type="text" placeholder="City Name">
+                <br><br>
+                <!-- <label>Country:- </label>
+                <input id="countryDetail" type="text" placeholder="Country Name">
+                <br><br>  -->
+                <button id="button1" type="reset" onclick="fetchDetails()"> &nbsp; Submit &nbsp;</button>
+               
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
